@@ -1,62 +1,73 @@
-#logo {
-    width: 50px;
-    height: auto;
-    float: left;
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 nav{
-    display: flex;
-    justify-content: center;
+width: 500px;
+display: flex;
+justify-content: space-evenly;
 }
 
-a{
-    margin-left: 15px;
-}
-h1 {
+h2{
     text-align: center;
 }
-
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1rem;
     color: white;
-    background-image: url("images/elon.jpeg");
+    background-image: url("../images/fond.jpg");
+    background-size: 100%;
+    background-position: center;
     display: flex;
     flex-direction: column;
 }
 
+main{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 article{
     width: 300px;
-    height: 100px; 
+    height: 200px; 
 }
 
 #article1 {
-    color: brown;
-    background-color: #39bdff;
+    color: #109dc2;
+    background-color: #d1e9f2;
+    border-radius: 10%;
 }
 
 #article2 {
-    color: azure;
-    background-color: black;
+    color: #109dc2;
+    background-color: #d1e9f2;
+    border-radius: 10%;
 }
 
 section{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 aside {
     width: 300px;
-    height: 80px;
+    height: 90px;
+    margin-top: 2%;
     box-shadow: inset 5px 0 5px -5px #42b9f5;
     font-style: italic;
-    color: #39bdff;
-    background-color: rgb(184, 19, 19) ;
+    color: #03617D;
+    background-color: #f6438b;
+    border-radius: 10%;
 }
 
 footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
